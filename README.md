@@ -14,15 +14,15 @@ Minitab 是一款强大的质量管理统计软件，其包罗万象的强大统
 
 电脑里需装有Minitab软件，并正常打开使用。我使用的是15.0的软件。
 
-![引用Mtb组件](.\mtb\mtb15.png)
+![引用Mtb组件](./mtb/mtb15.png)
 
-![引用Mtb组件](.\mtb\comlibrary.png)
+![引用Mtb组件](./mtb/comlibrary.png)
 
-![引用Mtb组件](.\mtb\mtblibrary.png)
+![引用Mtb组件](./mtb/mtblibrary.png)
 
 #### 2.调用Minitab的核心命令
 
-![XRChart](.\mtb\XRSetting.gif)
+![XRChart](./mtb/XRSetting.gif)
 
 - 由动态图可以看到，要生成X-R图及结果数据，需以下两条命令
 
@@ -44,7 +44,7 @@ SUBC>   SampSize '子组大小1';
 SUBC>   TResults '检验结果1' - '检验结果12'.
 ```
 
-![XRChart](.\mtb\Capability.gif)
+![XRChart](./mtb/Capability.gif)
 
 - 正态能力分析的命令同样是两条。如下，一条是命名变量，一条是生成分析结果
 
@@ -89,24 +89,14 @@ SUBC>   CStat.
 
 最终demo实现的效果如下。
 
-![XRChart](.\mtb\MinitabApplication.gif)
-
-
+![XRChart](./mtb/MinitabApplication.gif)
 
 #### 4.异常
 
 使用过程中可能出现的异常，这是因为安装好的Minitab15还没有被Window系统知道已经使用过。需要先确认Minitab15软件是否可以正常打开。
 
-![error80040154](.\mtb\Error80040154.jpg)
-
-
-
-
+![error80040154](./mtb/Error80040154.jpg)
 
 #### 5. 拓展
 
 若此demo的功能集成到某个想要分析数据的系统中，那么文件打开这一功能可以变成某系统的搜索查询数据的功能。查询后的数据就可以使用demo中的控制图或能力指数功能进行分析了。此外，Minitab中还有很多特别强大的质量分析功能，可参照2中获取到核心命令，再把核心命令集成模块程序在系统用户界面上操作。
-
-
-
-
