@@ -22,7 +22,7 @@ Minitab 是一款强大的质量管理统计软件，其包罗万象的强大统
 
 #### 2.调用Minitab的核心命令
 
-![XRChart](./mtb/XRSetting.gif)
+![XRChart](./mtb/XRsetting.gif)
 
 - 由动态图可以看到，要生成X-R图及结果数据，需以下两条命令
 
